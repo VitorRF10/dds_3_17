@@ -11,12 +11,14 @@ body{
     font-size: 16px;
 }
 
+/* Configurando corpo da página */
 #navegacao{
     background-color: white;
     border-bottom: 3px solid #d8d8d8;
     height: 45px;
 }
 
+/* Configurando Menu */
 #area_menu{
     width: 720px;
     margin: 0 auto;
@@ -78,4 +80,35 @@ h2{
     padding-left: 10px;
     margin-top: 15px;
     display: block;
+}
+
+/* Antivirus */
+.titulo_antivirus{
+    color: #6c966c;
+    text-align: center;
+}
+
+.img_antivirus{
+    height: 150px;
+    border-radius: 50px;
+}
+.container{
+    display: flex;
+}
+
+.antivirus{
+    width: 30%;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#avast{
+    background-image: url('../img/avast.png');
+}
+#avg{
+    background-image: url('../img/avg.jpg');
+}
+#norton{
+    background-image: url('../img/norton.png');
 }
